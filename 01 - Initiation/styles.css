@@ -18,8 +18,25 @@ body::before {
     background-color: lightblue;
     border: 1px solid blue;
     min-height: 50px;
-    font-size: 2rem;
+    font-size: 1rem;
 }
+
+.box-exo {
+    background-color: #d4a4f4;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-container {
+    background-color: #d4a4f4;
+    padding: 20px;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+    overflow: visible;
+}
+
 
 @media (min-width: 576px) {
     body::before {
